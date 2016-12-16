@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Kahoot Floodr</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+				<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+				<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+				<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+				<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+				<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+				<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+				<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+				<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+				<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+				<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+				<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+				<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+				<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+				<link rel="manifest" href="favicon/manifest.json">
+				<meta name="msapplication-TileColor" content="#000000">
+				<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+				<meta name="theme-color" content="#000000">
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-life-ring"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Kahoot Floodr</h1>
+								<p><!--[-->A Kahoot Flooding Service built by <a href="https://twitter.com/elliotgluckster">Elliot Gluck</a><br />
+								<!--[-->with help from <a href="https://github.com/msemple1111/kahoot-hack/graphs/contributors">these Github contributors</a>.<!--]--></p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Flood Now</a></li>
+								<li class="is-middle"><a href="https://www.paypal.me/ElliotGluck">Donations</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Flood her up!</h2>
+								<p>WARNING! This service is intended for TESTING PURPOSES ONLY and we do not encourage users to use our service in order to harass users of the Kahoot platform. Elliot Gluck is not responsible for any damages caused by users of this website.</p>
+								<p>Please report any other bugs to <a href="mailto:admin@elliotgluck.com">admin@elliotgluck.com</a></p>
+
+								<form action="python.php" method="post">
+									PIN: <input type="text" name="pin" onkeypress='return event.charCode >= 48 && event.charCode <= 57' pattern="[0-9]*" required/><br />
+									Name: <input type="text" name="username" pattern="[a-zA-Z0-9\s]+" required/><br />
+								<input type="submit" name="submit" value="Start the Flood!" />
+								</form>
+							</article>
+
+						<!-- JS -->
+							
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Elliot Gluck - <a href="https://github.com/elliotgluck/kahoothack-online">Free and Open Source forever.</a><br />This website is provided as-is and has absolutely no warranty. <br />Elliot Gluck is not liable for any damages caused by users.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
