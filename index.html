@@ -4,6 +4,7 @@
 		<title>Kahoot Floodr</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="assets/css/sweetalert.css">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -58,22 +59,30 @@
 								<h2 class="major">Flood her up!</h2>
 								<p>WARNING! This service is intended for TESTING PURPOSES ONLY and we do not encourage users to use our service in order to harass users of the Kahoot platform. Elliot Gluck is not responsible for any damages caused by users of this website.</p>
 								<p>Please report any other bugs to <a href="mailto:admin@elliotgluck.com">admin@elliotgluck.com</a></p>
+						<!-- JS -->
+						<script>
+							function modalFunc(){
+						swal("The Flood Has Been Summoned!", "Look up! It is about to get a lot more crowded...", "success")
+}
+						</script>
 
-								<form action="python.php" method="post">
+								<form onsubmit="modalFunc()" action="python.php" method="post">
 									PIN: <input type="text" name="pin" onkeypress='return event.charCode >= 48 && event.charCode <= 57' pattern="[0-9]*" required/><br />
 									Name: <input type="text" name="username" pattern="[a-zA-Z0-9\s]+" required/><br />
 								<input type="submit" name="submit" value="Start the Flood!" />
 								</form>
+								<h4><a href="https://paypal.me/elliotgluck">If you like our service, please consider donating.</a></h4>
 							</article>
 
-						<!-- JS -->
+
 							
 
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Elliot Gluck - <a href="https://github.com/elliotgluck/kahoothack-online">Free and Open Source forever.</a><br />This website is provided as-is and has absolutely no warranty. <br />Elliot Gluck is not liable for any damages caused by users.</p>
+						<p class="copyright">&copy; Elliot Gluck - <a href="https://github.com/elliotgluck/kahoot-hack-online">Free and Open Source forever.</a><br />This website is provided as-is and has absolutely no warranty. <br />Elliot Gluck is not liable for any damages caused by users.<br />
+<a href="https://paypal.me/elliotgluck">While this site is free, donations are appreciated.</a></p>
 					</footer>
 
 			</div>
@@ -82,6 +91,7 @@
 			<div id="bg"></div>
 
 		<!-- Scripts -->
+			<script src="assets/js/sweetalert.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
