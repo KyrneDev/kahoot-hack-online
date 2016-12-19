@@ -3,7 +3,6 @@ body.stop-scrolling {
   overflow: hidden; }
 
 .sweet-overlay {
-  all: initial;
   background-color: black;
   /* IE8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -751,7 +750,7 @@ body.stop-scrolling {
   -ms-transform: rotate(-45deg) \9; }
 
 /*!
- * Load Awesome v1.1.0 (http://github.danielcardoso.net/load-awesome/)
+ * Load Awesome v1.1.0 (https://github.danielcardoso.net/load-awesome/)
  * Copyright 2015 Daniel Cardoso <@DanielCardoso>
  * Licensed under MIT
  */
