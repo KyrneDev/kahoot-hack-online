@@ -47,8 +47,11 @@ input, select, button, textarea {
 
   color: #f35626;
 
-  cursor: pointer;
+
   -webkit-animation: hue 60s infinite linear;
+}
+  .cursr {
+  cursor: pointer;
 }
 
   .butt--primary {
